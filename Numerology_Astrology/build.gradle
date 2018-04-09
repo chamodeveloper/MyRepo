@@ -24,10 +24,13 @@ bintray {
     key = '47bef90f9c66dea9be1bb70f303da3423409979e'
     pkg {
         repo = 'num-astro'
-        name = 'com.test.numerology'
+        name = 'com.mytest.myservice'
         userOrg = 'testorg1'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
+        version {
+            vcsTag = '1.2.0'
+        }
     }
 
 }

@@ -10,7 +10,7 @@ ext {
     siteUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
     gitUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.2.0'
 
     developerId = 'dineshkumarkb'
     developerName = 'Dinesh Kumar'
