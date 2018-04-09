@@ -2,9 +2,8 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'com.test.numerology'
-
-    publishedGroupId = 'com.test.numerology'
+    bintrayName = 'com.mytest.myservice'
+    publishedGroupId = 'com.mytest.myservice'
     libraryName = 'NUM-ASTRO'
     artifact = 'num-astro'
 
@@ -48,3 +47,5 @@ dependencies {
     //compile 'com.test.numerology:num-astro:1.0.0'
     //compile 'com.android.support:appcompat-v7:24.0.0'
 }
+
+//apply from: 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology/install.gradle'

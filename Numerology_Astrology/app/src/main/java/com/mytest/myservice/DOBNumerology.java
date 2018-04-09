@@ -140,8 +140,9 @@ public class DOBNumerology extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
+        System.out.println("onClick called");
 
-        switch(view.getId()){
+       /* switch(view.getId()){
 
             case R.id.editBox:
                 DatePickerDialog mDatePickerDialog = new DatePickerDialog(DOBNumerology.this,android.R.style.Theme_Holo_Dialog,this,_calendar.get(Calendar.YEAR),_calendar.get(Calendar.MONTH),_calendar.get(Calendar.DAY_OF_MONTH));
@@ -159,7 +160,7 @@ public class DOBNumerology extends AppCompatActivity implements View.OnClickList
                 mTextViewBottomLeft.setTextSize(35);
                 mTextViewBottomLeft.setTextColor(Color.YELLOW);
                 break;
-        }
+        }*/
     }
 
     public void calcPyramid(){

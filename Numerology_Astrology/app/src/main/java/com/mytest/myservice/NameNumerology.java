@@ -149,7 +149,9 @@ public class NameNumerology extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view) {
 
-        switch(view.getId()){
+        System.out.println("onClick called");
+
+        /*switch(view.getId()){
 
             case R.id.getNameWithoutInitials:
                 mName = _editTextName.getText().toString().replaceAll(" ","");
@@ -194,7 +196,7 @@ public class NameNumerology extends AppCompatActivity implements View.OnClickLis
                 }
                 _editTextInitial.setFilters(new InputFilter[] {new InputFilter.AllCaps()});
 
-        }
+        }*/
 
     }
 
