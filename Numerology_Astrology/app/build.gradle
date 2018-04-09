@@ -1,7 +1,26 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'com.test.numerology'
 
+    publishedGroupId = 'com.test.numerology'
+    libraryName = 'NUM-ASTRO'
+    artifact = 'num-astro'
 
+    siteUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
+    gitUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'dineshkumarkb'
+    developerName = 'Dinesh Kumar'
+    developerEmail = 'dineshkumarkb@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 
 android {
@@ -26,5 +45,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.4.0'
+    //compile 'com.test.numerology:num-astro:1.0.0'
     //compile 'com.android.support:appcompat-v7:24.0.0'
 }
