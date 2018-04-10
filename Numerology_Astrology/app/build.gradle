@@ -65,27 +65,6 @@ def pomConfig = {
     }
 }
 
-/*// Create the publication with the pom configuration:
-publishing {
-    publications {
-        MyPublication(MavenPublication) {
-            //artifact sourcesJar
-            //artifact javadocJar
-            groupId 'org.jfrog.gradle.sample'
-            artifactId 'num-astro'
-            version '1.1'
-            pom.withXml {
-                def root = asNode()
-                root.appendNode('description', 'Your description of the lib')
-                root.appendNode('name', 'Your name of the lib')
-                root.appendNode('url', 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology')
-                root.children().last() + pomConfig
-            }
-        }
-    }
-}*/
-
-
 bintray {
     user = 'dineshkumarkb'
     key = '47bef90f9c66dea9be1bb70f303da3423409979e'
@@ -98,8 +77,8 @@ bintray {
         publicDownloadNumbers = true
         vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
         version {
-            name = "Android_lib_update_3.0"
-            vcsTag = '2.5.0'
+            name = "Android_lib_update_4.0"
+            vcsTag = '2.6.0'
             released = new Date()
         }
     }
@@ -116,4 +95,4 @@ dependencies {
 
 //apply from: "/MyGITRepo/Numerology_Astrology/install.gradle"
 apply from: 'https://raw.githubusercontent.com/dineshkumarkb/MyRepo/master/Numerology_Astrology/install.gradle'
-apply from: "/MyGITRepo/Numerology_Astrology/bintray.gradle"
+apply from: 'https://raw.githubusercontent.com/dineshkumarkb/MyRepo/master/Numerology_Astrology/bintray.gradle'
