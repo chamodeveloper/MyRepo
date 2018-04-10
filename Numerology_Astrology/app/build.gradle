@@ -112,4 +112,5 @@ dependencies {
     //compile 'com.android.support:appcompat-v7:24.0.0'
 }
 
-apply from: "/MyGITRepo/Numerology_Astrology/install.gradle"
+//apply from: "/MyGITRepo/Numerology_Astrology/install.gradle"
+apply from: 'https://github.com/dineshkumarkb/MyRepo/blob/master/Numerology_Astrology/install.gradle'
