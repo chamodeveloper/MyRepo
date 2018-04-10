@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/androidTest/debug/layout-large-v4/home_page.xml",
+        "source": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/bundles/debug/res/layout-large-v4/home_page.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/androidTest/debug/layout-large-v4/dob_page.xml",
+        "source": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/bundles/debug/res/layout-large-v4/dob_page.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/androidTest/debug/layout-large-v4/name_page.xml",
+        "source": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/bundles/debug/res/layout-large-v4/name_page.xml"
+    }
+]

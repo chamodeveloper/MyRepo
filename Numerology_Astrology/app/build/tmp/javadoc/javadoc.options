@@ -1,0 +1,8 @@
+-classpath '/Users/dkumar/Library/Android/sdk/platforms/android-23/android.jar'
+-d '/MyGITRepo/Numerology_Astrology/app/build/docs/javadoc'
+-doctitle 'app 2.0.0 API'
+-quiet 
+-windowtitle 'app 2.0.0 API'
+'/MyGITRepo/Numerology_Astrology/app/src/main/java/com/mytest/myservice/DOBNumerology.java'
+'/MyGITRepo/Numerology_Astrology/app/src/main/java/com/mytest/myservice/MainActivity.java'
+'/MyGITRepo/Numerology_Astrology/app/src/main/java/com/mytest/myservice/NameNumerology.java'

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

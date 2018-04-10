@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/MyGITRepo/Numerology_Astrology/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/dkumar/.android/build-cache/ef21f3d84d5c074fb4351a28453addac130c5169/output/res/anim/abc_slide_in_top.xml"
+    }
+]
