@@ -85,6 +85,7 @@ publishing {
     }
 }*/
 
+
 bintray {
     user = 'dineshkumarkb'
     key = '47bef90f9c66dea9be1bb70f303da3423409979e'
@@ -104,6 +105,7 @@ bintray {
     }
 
 }
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')

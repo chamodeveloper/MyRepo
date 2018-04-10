@@ -33,26 +33,4 @@ artifacts {
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
-bintray {
-    user = properties.getProperty("dineshkumarkb")
-    key = properties.getProperty("47bef90f9c66dea9be1bb70f303da3423409979e")
 
-    configurations = ['archives']
-    pkg {
-        repo = "num-astro"
-        name = "com.mytest.myservice"
-        websiteUrl = "https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology"
-        vcsUrl = "https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git"
-        licenses = ['Apache-2.0']
-        publish = true
-        publicDownloadNumbers = true
-        version {
-            desc = "A library uploaded from desktop for numerology"
-           /* gpg {
-                sign = true //Determines whether to GPG sign the files. The default is false
-                passphrase = properties.getProperty("bintray.gpg.password")
-                //Optional. The passphrase for GPG signing'
-            }*/
-        }
-    }
-}
