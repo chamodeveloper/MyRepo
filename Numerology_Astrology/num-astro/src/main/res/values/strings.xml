@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">AstroNumerology </string>
-    <string name="button1_name">DOB Numerology</string>
-    <string name="button2_name">Name Numerology </string>
-    <string name="namehint">Enter Name</string>
-    <string name="inithint">Enter Initials</string>
-    <string name="getnumber">Get Numbers</string>
-</resources>
