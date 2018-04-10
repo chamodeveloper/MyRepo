@@ -9,7 +9,7 @@ ext {
     siteUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
     gitUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '2.0.0'
 
     developerId = 'dineshkumarkb'
     developerName = 'Dinesh Kumar'
@@ -74,8 +74,8 @@ bintray {
         publicDownloadNumbers = true
         vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
         version {
-            name = "Android_lib_update_1.0"
-            vcsTag = '1.0'
+            name = "Android_lib_update_2.0"
+            vcsTag = '2.0'
             released = new Date()
         }
     }
