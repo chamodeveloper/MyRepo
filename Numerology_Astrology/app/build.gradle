@@ -113,4 +113,5 @@ dependencies {
 }
 
 //apply from: "/MyGITRepo/Numerology_Astrology/install.gradle"
-apply from: 'https://github.com/dineshkumarkb/MyRepo/blob/master/Numerology_Astrology/install.gradle'
+apply from: 'https://raw.githubusercontent.com/dineshkumarkb/MyRepo/master/Numerology_Astrology/install.gradle'
+apply from: "/MyGITRepo/Numerology_Astrology/bintray.gradle"
