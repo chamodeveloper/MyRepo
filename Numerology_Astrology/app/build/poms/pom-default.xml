@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Numerology_Astrology</groupId>
   <artifactId>app</artifactId>
-  <version>2.0.0</version>
+  <version>1.0.0</version>
   <packaging>aar</packaging>
   <name>com.mytest.myservice</name>
   <url>https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology</url>
