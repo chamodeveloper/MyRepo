@@ -65,11 +65,10 @@ def pomConfig = {
 
 bintray {
     user = 'dineshkumarkb'
-    key = '47bef90f9c66dea9be1bb70f303da3423409979e'
+    key = 'a1eb6e7ed25b2a1405eae3c8ca273b13e795c071'
     pkg {
         repo = 'num-astro'
         name = 'com.mytest.myservice'
-        userOrg = 'testorg1'
         licenses = ['Apache-2.0']
         publish = true
         publicDownloadNumbers = true
