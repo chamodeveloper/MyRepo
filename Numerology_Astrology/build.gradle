@@ -9,6 +9,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.+'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -19,33 +20,19 @@ plugins{
     id "com.jfrog.bintray" version('1.7.3')
 }
 
-bintray {
-    user = 'dineshkumarkb'
-    key = '47bef90f9c66dea9be1bb70f303da3423409979e'
-    pkg {
-        repo = 'num-astro'
-        name = 'com.mytest.myservice'
-        userOrg = 'testorg1'
-        licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
-        version {
-            vcsTag = '1.2.0'
-        }
+
+
+
+
+allprojects {
+    repositories {
+        jcenter()
+        apply plugin: 'maven'
+        apply plugin: 'maven-publish'
+
     }
-
 }
 
-
-//allprojects {
-//    repositories {
-//        jcenter()
-//        maven {
-//                url  "https://testorg1.bintray.com/dinesh_repo"
-//        }
-//
-//    }
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
 //}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
