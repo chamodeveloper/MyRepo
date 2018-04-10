@@ -6,8 +6,6 @@ install {
         pom {
             project {
                 packaging 'aar'
-
-                // Add your description here
                 name "com.mytest.myservice"
                 url 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
 
