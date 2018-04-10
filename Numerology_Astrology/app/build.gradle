@@ -1,9 +1,7 @@
 apply plugin: 'com.android.library'
 
-/*
+
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'com.mytest.myservice'
     publishedGroupId = 'com.mytest.myservice'
     libraryName = 'NUM-ASTRO'
     artifact = 'num-astro'
@@ -11,7 +9,7 @@ ext {
     siteUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
     gitUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
 
-    libraryVersion = '1.3.0'
+    libraryVersion = '1.0.0'
 
     developerId = 'dineshkumarkb'
     developerName = 'Dinesh Kumar'
@@ -22,7 +20,7 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
-*/
+
 
 
 android {
@@ -77,8 +75,8 @@ bintray {
         publicDownloadNumbers = true
         vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git'
         version {
-            name = "Android_lib_update_4.0"
-            vcsTag = '2.6.0'
+            name = "Android_lib_update_1.0"
+            vcsTag = '1.0'
             released = new Date()
         }
     }
