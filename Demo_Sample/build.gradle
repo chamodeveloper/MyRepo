@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
 
 buildscript {
 
@@ -8,8 +9,12 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
     }
 }
+
+
 android {
     compileSdkVersion 26
     sourceSets {
@@ -46,7 +51,33 @@ allprojects {
     }
 }
 
+bintray {
+    user = 'dineshkumarkb'
+    key = 'a1eb6e7ed25b2a1405eae3c8ca273b13e795c071'
+    pkg {
+        repo = 'demo-sample'
+        name = 'com.conviva'
+        licenses = ['Apache-2.0']
+        publish = true
+        override = true
+        publicDownloadNumbers = true
+        configurations = ['archives']
+        vcsUrl = 'https://github.com/dineshkumarkb/MyRepo/tree/master/Demo-Sample.git'
+        version {
+            name = "demo-sample-1.0"
+            vcsTag = '1.0'
+            released = new Date()
+        }
+    }
+
+}
+
+
+
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    apply from: 'https://raw.githubusercontent.com/dineshkumarkb/MyRepo/master/Demo_Sample/install.gradle'
+    apply from: 'https://raw.githubusercontent.com/dineshkumarkb/MyRepo/master/Demo_Sample/bintray.gradle'
+
 }

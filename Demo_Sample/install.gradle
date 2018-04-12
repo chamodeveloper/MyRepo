@@ -5,8 +5,8 @@ install {
         pom {
             project {
                 packaging 'aar'
-                name "com.mytest.myservice"
-                url 'https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology'
+                name "com.conviva"
+                url 'https://github.com/dineshkumarkb/MyRepo/tree/master/Demo_Sample'
 
                 // Set your license
                 licenses {
@@ -23,9 +23,9 @@ install {
                     }
                 }
                 scm {
-                    connection "https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git"
-                    developerConnection "https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology.git"
-                    url "https://github.com/dineshkumarkb/MyRepo/tree/master/Numerology_Astrology"
+                    connection "https://github.com/dineshkumarkb/MyRepo/tree/master/Demo_Sample.git"
+                    developerConnection "https://github.com/dineshkumarkb/MyRepo/tree/master/Demo_Sample.git"
+                    url "https://github.com/dineshkumarkb/MyRepo/tree/master/Demo_Sample"
 
                 }
             }

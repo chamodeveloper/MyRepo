@@ -1,6 +1,8 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = "2.0.0"
+version = "1.0.0"
+group = "com.conviva"
+
 
 if (project.hasProperty("android")) { // Android libraries
     task sourcesJar(type: Jar) {
